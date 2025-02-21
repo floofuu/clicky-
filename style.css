@@ -5,6 +5,7 @@ body{
 
 #top-row{
     display: flex;
+    justify-content: center;
     width: auto;
 }
 
@@ -18,17 +19,41 @@ body{
 .keycaps:nth-child(1){
     background-image: url("img/aula_esc.png");
 }
-
 .keycaps:nth-child(2){
     background-image: url("img/aula_f1.png");
 }
-
 .keycaps:nth-child(3){
     background-image: url("img/aula_f2.png");
 }
-
 .keycaps:nth-child(4){
     background-image: url("img/aula_f3.png");
+}
+.keycaps:nth-child(5){
+    background-image: url("img/aula_f4.png");
+}
+.keycaps:nth-child(6){
+    background-image: url("img/aula_f5.png");
+}
+.keycaps:nth-child(7){
+    background-image: url("img/aula_f6.png");
+}
+.keycaps:nth-child(8){
+    background-image: url("img/aula_f7.png");
+}
+.keycaps:nth-child(9){
+    background-image: url("img/aula_f8.png");
+}
+.keycaps:nth-child(10){
+    background-image: url("img/aula_f9.png");
+}
+.keycaps:nth-child(11){
+    background-image: url("img/aula_f10.png");
+}
+.keycaps:nth-child(12){
+    background-image: url("img/aula_f11.png");
+}
+.keycaps:nth-child(13){
+    background-image: url("img/aula_f12.png");
 }
 
 .keycaps:hover{
