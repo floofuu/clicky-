@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(174, 174, 220);
+    margin: 20px;
+}
+
+.a{
+    text-indent: 50px;
+}
+.b{
+    text-indent: 100px;
+}
+
+#sub{
+    font-size: large;
+}
+
+.button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.15s ease-in;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
