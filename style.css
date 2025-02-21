@@ -31,6 +31,9 @@ body{
     background-image: url("img/aula_f3.png");
 }
 
+.keycaps:hover{
+    cursor: pointer;
+}
 
 .keycaps:active{
   transform: translateY(4px);
