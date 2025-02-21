@@ -9,6 +9,10 @@ body{
     width: auto;
 }
 
+#click{
+    text-align: center;
+}
+
 .keycaps{
     width: 40px;
     height: 40px;
