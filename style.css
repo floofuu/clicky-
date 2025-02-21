@@ -3,6 +3,39 @@ body{
     margin: 20px;
 }
 
+#top-row{
+    display: flex;
+    width: auto;
+}
+
+.keycaps{
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.keycaps:nth-child(1){
+    background-image: url("img/aula_esc.png");
+}
+
+.keycaps:nth-child(2){
+    background-image: url("img/aula_f1.png");
+}
+
+.keycaps:nth-child(3){
+    background-image: url("img/aula_f2.png");
+}
+
+.keycaps:nth-child(4){
+    background-image: url("img/aula_f3.png");
+}
+
+
+.keycaps:active{
+  transform: translateY(4px);
+}
+
 .a{
     text-indent: 50px;
 }
